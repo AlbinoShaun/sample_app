@@ -7,6 +7,7 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3', '1.3.4', :group => :development
 gem 'pg'
+gem 'gravatar_image_tag'
 
 group :development do
 	gem 'rspec-rails'
@@ -18,6 +19,7 @@ group :test do
 	gem 'rspec-rails'
 	gem 'webrat'
 	gem 'ZenTest'
+	gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
